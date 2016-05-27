@@ -8,8 +8,8 @@
 -- patch for taglist: https://github.com/awesomeWM/awesome/pull/39
 
 theme            = {}
-theme.icons      = os.getenv("HOME") .. "/.config/awesome/themes/pro-dark/icons/"
-theme.wallpaper  = os.getenv("HOME") .. "/.config/awesome/themes/pro-dark/wallpapers/pro-dark-shadow.png"
+theme.icons      = os.getenv("HOME") .. "/.config/awesome/themes/pro-dark-trap000d/icons/"
+theme.wallpaper  = os.getenv("HOME") .. "/.config/awesome/themes/pro-dark-trap000d/wallpapers/pro-dark-shadow.png"
 theme.panel      = "png:" .. theme.icons .. "/panel/panel.png"
 theme.font       = "Terminus 9"
 
@@ -44,6 +44,36 @@ theme.layout_tileleft   = theme.icons .. "/panel/layouts/tileleft.png"
 theme.layout_tilebottom = theme.icons .. "/panel/layouts/tilebottom.png"
 theme.layout_tiletop    = theme.icons .. "/panel/layouts/tiletop.png"
 
+-- | Titlebars | --
+
+theme.titlebar_close_button_normal = theme.icons .. "/panel/titlebar/close_normal.png"
+theme.titlebar_close_button_focus  = theme.icons .. "/panel/titlebar/close_focus.png"
+
+theme.titlebar_ontop_button_normal_inactive = theme.icons .. "/panel/titlebar/ontop_normal_inactive.png"
+theme.titlebar_ontop_button_focus_inactive  = theme.icons .. "/panel/titlebar/ontop_focus_inactive.png"
+theme.titlebar_ontop_button_normal_active = theme.icons .. "/panel/titlebar/ontop_normal_active.png"
+theme.titlebar_ontop_button_focus_active  = theme.icons .. "/panel/titlebar/ontop_focus_active.png"
+
+theme.titlebar_sticky_button_normal_inactive = theme.icons .. "/panel/titlebar/sticky_normal_inactive.png"
+theme.titlebar_sticky_button_focus_inactive  = theme.icons .. "/panel/titlebar/sticky_focus_inactive.png"
+theme.titlebar_sticky_button_normal_active = theme.icons .. "/panel/titlebar/sticky_normal_active.png"
+theme.titlebar_sticky_button_focus_active  = theme.icons .. "/panel/titlebar/sticky_focus_active.png"
+
+theme.titlebar_floating_button_normal_inactive = theme.icons .. "/panel/titlebar/floating_normal_inactive.png"
+theme.titlebar_floating_button_focus_inactive  = theme.icons .. "/panel/titlebar/floating_focus_inactive.png"
+theme.titlebar_floating_button_normal_active = theme.icons .. "/panel/titlebar/floating_normal_active.png"
+theme.titlebar_floating_button_focus_active  = theme.icons .. "/panel/titlebar/floating_focus_active.png"
+
+theme.titlebar_maximized_button_normal_inactive = theme.icons .. "/panel/titlebar/maximized_normal_inactive.png"
+theme.titlebar_maximized_button_focus_inactive  = theme.icons .. "/panel/titlebar/maximized_focus_inactive.png"
+theme.titlebar_maximized_button_normal_active = theme.icons .. "/panel/titlebar/maximized_normal_active.png"
+theme.titlebar_maximized_button_focus_active  = theme.icons .. "/panel/titlebar/maximized_focus_active.png"
+
+theme.titlebar_minimize_button_normal_inactive = theme.icons .. "/panel/titlebar/minimize_normal_inactive.png"
+theme.titlebar_minimize_button_focus_inactive  = theme.icons .. "/panel/titlebar/minimize_focus_inactive.png"
+theme.titlebar_minimize_button_normal_active = theme.icons .. "/panel/titlebar/minimize_normal_active.png"
+theme.titlebar_minimize_button_focus_active  = theme.icons .. "/panel/titlebar/minimize_focus_active.png"
+
 -- | Taglist | --
 
 theme.taglist_bg_empty    = "png:" .. theme.icons .. "/panel/taglist/empty.png"
@@ -54,7 +84,7 @@ theme.taglist_font        = "Terminus 11"
 
 -- | Tasklist | --
 
-theme.tasklist_font                 = "Terminus 8"
+theme.tasklist_font                 = "Workplace Sans 11"
 theme.tasklist_disable_icon         = true
 theme.tasklist_bg_normal            = "png:" .. theme.icons .. "panel/tasklist/normal.png"
 theme.tasklist_bg_focus             = "png:" .. theme.icons .. "panel/tasklist/focus.png"
